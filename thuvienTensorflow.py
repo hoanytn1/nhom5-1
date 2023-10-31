@@ -65,7 +65,5 @@ if __name__ == "__main__":
     training_epochs = 1000
 
     weight, bias, training_cost = linear_regression(x, y, learning_rate, training_epochs)
-
     print("Training cost =", training_cost, "Weight =", weight, "bias =", bias, '\n')
-
     plot_regression_line(x, y, weight, bias)
