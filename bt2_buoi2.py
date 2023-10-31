@@ -147,4 +147,3 @@ def update():
 
 root.after(1, update)
 root.mainloop()
-
