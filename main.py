@@ -81,8 +81,8 @@ entry_Cx.grid(row=2, column=1, padx=10, pady=5)
 entry_Cy = ttk.Entry(root)
 entry_Cy.grid(row=2, column=2, padx=10, pady=5)
 
-# Tạo nút Kiểm tra và nút Xóa
-check_button = ttk.Button(root, text="Kiểm tra", command=check_triangle, padding=(20, 10))
+# Tạo nút Kiểm Tra và nút Xóa
+check_button = ttk.Button(root, text="Kiểm Tra", command=check_triangle, padding=(20, 10))
 check_button.grid(row=3, column=0, columnspan=3, pady=10)
 
 clear_button = ttk.Button(root, text="Xóa", command=clear_entries, padding=(20, 10))
