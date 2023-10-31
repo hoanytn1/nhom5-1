@@ -24,6 +24,6 @@ print('Tổng số sinh viên:', total_students)
 
 plt.bar(['Điểm A', 'Điểm B', 'Điểm C'], [diemA_count, diemBc_count, diemC_count])
 plt.xlabel('Phân loại điểm')
-plt.ylabel('Số sinh viên')
+plt.ylabel('Số Sinh Viên')
 plt.title('Thống kê điểm theo phân loại A, B, C')
 plt.show()
